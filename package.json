@@ -1,8 +1,12 @@
 {
+  "type": "module",
   "name": "genencryptkey",
   "version": "0.5.0",
   "description": "Command line tool to gnerate random AES 256 bit encryption keys",
   "main": "index.js",
+  "bin": {
+    "genencryptkey": "./index.js"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -22,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/miketerry-org/genencryptkey/issues"
   },
-  "homepage": "https://github.com/miketerry-org/genencryptkey#readme"
+  "homepage": "https://github.com/miketerry-org/genencryptkey#readme",
+  "dependencies": {
+    "clipboardy": "^4.0.0"
+  }
 }

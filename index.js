@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-const crypto = require("crypto");
-const fs = require("fs");
-const clipboardy = require("clipboardy");
-const path = require("path");
+import crypto from "crypto";
+import fs from "fs";
+import clipboardy from "clipboardy";
+import path from "path";
 
 // Function to generate a secure 256-bit AES key (32 bytes)
 function generateKey() {
